@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#day {
+  width: 90vw;
+  height: 75.3vh;
+  background-image: url(IMG_20211125_182119.jpg);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 2px 60px rgba(0, 0, 0, 4);
+  
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+#road{
+  height:7vh; 
+  width: 10vw;
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  /*background-image: url(IMG_20211125_231108.jpg);
+  background-repeat: repeat-y;
+  animation: road 1s linear infinite;*/
+} 
+
+#img2{
+ height: 15vh;
+ width: 25vw;
+}
+
+#car1{
+  position: absolute;
+  left: 6vw;
+  top: -15vh;
+  animation: car 2s linear infinite 2s;
+}
+/*@keyframes road{
+  100%{
+    transform: translateY(-2000px)
+  }
+}*/
+
+@keyframes car{
+  100%{
+    transform: translateY(700px);
+  }
+}
